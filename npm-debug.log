@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront',
+5 verbose install   [ 'grunt',
+5 verbose install     'grunt-checktextdomain',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-wp-i18n',
+5 verbose install     'grunt-sass',
+5 verbose install     'node-sass',
+5 verbose install     'node-susy',
+5 verbose install     'node-bourbon',
+5 verbose install     'grunt-contrib-copy' ] ]
+6 info preinstall storefront@1.2.6
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+9 verbose already installed skipping grunt-wp-i18n@^0.4.8 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+10 verbose already installed skipping grunt-sass@^0.17.0 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+11 verbose already installed skipping node-sass@^2.0.0-beta /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+12 verbose cache add [ 'node-susy@^2.2.2', null ]
+13 verbose cache add spec="node-susy@^2.2.2" args=["node-susy@^2.2.2",null]
+14 verbose parsed spec { raw: 'node-susy@^2.2.2',
+14 verbose parsed spec   scope: null,
+14 verbose parsed spec   name: 'node-susy',
+14 verbose parsed spec   rawSpec: '^2.2.2',
+14 verbose parsed spec   spec: '>=2.2.2 <3.0.0',
+14 verbose parsed spec   type: 'range' }
+15 verbose already installed skipping node-bourbon@~1.0.0 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+16 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+17 verbose parsed spec { raw: 'node-susy@^2.2.2',
+17 verbose parsed spec   scope: null,
+17 verbose parsed spec   name: 'node-susy',
+17 verbose parsed spec   rawSpec: '^2.2.2',
+17 verbose parsed spec   spec: '>=2.2.2 <3.0.0',
+17 verbose parsed spec   type: 'range' }
+18 verbose addNamed [ 'node-susy', '>=2.2.2 <3.0.0' ]
+19 verbose addNamed [ null, '>=2.2.2 <3.0.0' ]
+20 silly lockFile e86d05ae-node-susy-2-2-2-3-0-0 node-susy@>=2.2.2 <3.0.0
+21 verbose lock node-susy@>=2.2.2 <3.0.0 /Users/jameskoster/.npm/e86d05ae-node-susy-2-2-2-3-0-0.lock
+22 silly addNameRange { name: 'node-susy', range: '>=2.2.2 <3.0.0', hasData: false }
+23 verbose mapToRegistry name node-susy
+24 verbose mapToRegistry uri https://registry.npmjs.org/node-susy
+25 verbose request on initialization, where is /node-susy
+26 verbose request after pass 1, where is /node-susy
+27 verbose request url raw /node-susy
+28 verbose request resolving registry [ 'https://registry.npmjs.org/', './node-susy' ]
+29 verbose request after pass 2, where is https://registry.npmjs.org/node-susy
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 10:47:10
+32 verbose request id dd412891beb98737
+33 http request GET https://registry.npmjs.org/node-susy
+34 verbose already installed skipping grunt@~0.4.5 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+35 verbose already installed skipping grunt-checktextdomain@^0.1.1 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+36 verbose already installed skipping grunt-contrib-cssmin@~0.10.0 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+37 verbose already installed skipping grunt-contrib-jshint@^0.10.0 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+38 verbose already installed skipping grunt-contrib-uglify@~0.5.1 /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+39 http 404 https://registry.npmjs.org/node-susy
+40 verbose headers { date: 'Tue, 10 Feb 2015 10:47:10 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=0',
+40 verbose headers   'content-length': '52',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   age: '0',
+40 verbose headers   'x-served-by': 'cache-lcy1120-LCY',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1423565230.173052,VS0,VE365',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 silly registry.get cb [ 404,
+41 silly registry.get   { date: 'Tue, 10 Feb 2015 10:47:10 GMT',
+41 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 silly registry.get     'content-type': 'application/json',
+41 silly registry.get     'cache-control': 'max-age=0',
+41 silly registry.get     'content-length': '52',
+41 silly registry.get     'accept-ranges': 'bytes',
+41 silly registry.get     via: '1.1 varnish',
+41 silly registry.get     age: '0',
+41 silly registry.get     'x-served-by': 'cache-lcy1120-LCY',
+41 silly registry.get     'x-cache': 'MISS',
+41 silly registry.get     'x-cache-hits': '0',
+41 silly registry.get     'x-timer': 'S1423565230.173052,VS0,VE365',
+41 silly registry.get     'keep-alive': 'timeout=10, max=50',
+41 silly registry.get     connection: 'Keep-Alive' } ]
+42 silly lockFile e86d05ae-node-susy-2-2-2-3-0-0 node-susy@>=2.2.2 <3.0.0
+43 silly lockFile e86d05ae-node-susy-2-2-2-3-0-0 node-susy@>=2.2.2 <3.0.0
+44 verbose stack Error: 404 Not Found: node-susy
+44 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+44 verbose stack     at Request.emit (events.js:98:17)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+44 verbose stack     at Request.emit (events.js:117:20)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+44 verbose stack     at IncomingMessage.emit (events.js:117:20)
+44 verbose stack     at _stream_readable.js:943:16
+44 verbose stack     at process._tickCallback (node.js:419:13)
+45 verbose statusCode 404
+46 verbose pkgid node-susy
+47 verbose cwd /Users/jameskoster/VVV/www/wordpress-default/wp-content/themes/storefront
+48 error Darwin 14.1.0
+49 error argv "node" "/usr/local/bin/npm" "install"
+50 error node v0.10.32
+51 error npm  v2.0.2
+52 error code E404
+53 error 404 Not Found: node-susy
+53 error 404
+53 error 404 'node-susy' is not in the npm registry.
+53 error 404 You should bug the author to publish it (or use the name yourself!)
+53 error 404 It was specified as a dependency of 'storefront'
+53 error 404
+53 error 404 Note that you can also install from a
+53 error 404 tarball, folder, http url, or git url.
+54 verbose exit [ 1, true ]
