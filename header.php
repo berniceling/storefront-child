@@ -9,6 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> <?php storefront_html_tag_schema(); ?>>
 <head>
+<meta name="google-site-verification" content="sLSfBAwvR5Jwol1cJa25jMLjRrAtFvcjKMgXFYMkJBA" />
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -36,16 +37,27 @@
 			 * @hooked storefront_primary_navigation - 50
 			 * @hooked storefront_header_cart - 60
 			 */
-			do_action( 'storefront_header' ); ?>
+
+			do_action( 'storefront_header' ); 
+			remove_action('storefront_header_cart', 60);
+			?>
 
 		</div>
 	</header><!-- #masthead -->
+	<?php
+		if (is_front_page()){
+			echo do_shortcode("[metaslider id=5902 percentwidth=100]");
+		} else if (is_page('Dealers')){
+			echo do_shortcode("[metaslider id=7377 percentwidth=100]");
+		}
+	?>
 
 	<?php
 	/**
 	 * @hooked storefront_header_widget_region - 10
 	 */
-	do_action( 'storefront_before_content' ); ?>
+	do_action( 'storefront_before_content' ); 
+	?>
 
 	<div id="content" class="site-content">
 		<div class="col-full">

@@ -30,6 +30,13 @@
 
 </div><!-- #page -->
 
+<div id="social_footer">
+	<center><?php echo do_shortcode('[aps-social id="1"]')?></center>
+</div><!-- #social_footer -->
+<div id="copyright_footer">
+	Copyright 2011 - <?php echo date("Y") ?> Neyrinck. All rights reserved.
+</div>
+
 <?php wp_footer(); ?>
 
 </body>

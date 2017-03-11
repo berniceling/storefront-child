@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title><?php echo get_bloginfo( 'name', 'display' ); ?></title>
+        <style>
+            .smtxt {font-size: 12px;}
+            hr { border-top : 1px solid #eee !important;}
+            a, a:hover  { text-decoration: none !important; }
+
+        </style>
+	</head>
+    <body marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<div id="wrapper">
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+            	<tr>
+                	<td align="center" valign="top">
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_container">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- Header -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style='background:#ccc'>
+                                        <tr>
+                                            <td>
+                                                <a href='https://neyrinck.com/store/' style='text-decoration: none !important;'>
+                                                <span style='font-family: Helvetica; padding-bottom: 10px;'>
+                                                    <h1 style='font-size: 34px; letter-spacing: -1px; font-weight:800; margin:0; line-height: 1em; padding:36px 48px 5px 36px'>NEYRINCK</h1>
+                                                    <p style='padding: 0; margin: 0; padding-left:36px; font-size: 15px; font-weight: 200; color: #202020'>Making Great Sound Easy</p>
+                                                    
+                                                </span>
+                                                </a>
+                                                <br/>
+                                                <hr />
+                                                <br/>
+
+                                            	<h1 style='font-size: 30px !important; font-weight: 300 !important; text-align: center !important;'><?php echo $email_heading; ?></h1>
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- End Header -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- Body -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_body">
+                                    	<tr>
+                                            <td valign="top" id="body_content">
+                                                <!-- Content -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <div id="body_content_inner">
+                                                            <!--- END HEADER -->
+
+                                                            <h1 style="font-size:30px !important;font-weight:300;text-align:center;color:#333;display:block;font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;line-height:150%;margin:0;padding:36px 48px;text-shadow:0 1px 0 #ffffff;">Welcome to Neyrinck</h1>
+
+
+                                                                <?php do_action( 'woocommerce_email_header', 'Welcome to Neyrinck' ); ?>
+
+                                                                <p>Hi,</p>
+
+                                                                <p>Welcome to Neyrinck! In order to proceed, you need to confirm your email address. Please follow the link below:</p>
+
+                                                                <p><a href='%verification_url%'>%verification_url%</a></p>
+
+                                                                <p>Thank you,<br/>
+                                                                Neyrinck Team</p>
+
+
+
+
+
+                                                            <!-- BEGIN FOOTER -->
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End Content -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- End Body -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- Footer -->
+                                    <table border="0" cellpadding="10" cellspacing="0" width="600" id="template_footer">
+                                        <tr>
+                                            <td valign="top">
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td colspan="2" valign="middle" id="credit">
+                                                            <?php echo wpautop( wp_kses_post( wptexturize( apply_filters( 'woocommerce_email_footer_text', get_option( 'woocommerce_email_footer_text' ) ) ) ) ); ?>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table border="0" cellpadding="10" cellspacing="0" width="600" style='width: 320px; margin: 0 auto; margin-bottom: 40px;'>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="https://twitter.com/neyrinck" target="_blank">
+                                                            <img src="https://neyrinck.com/wp-content/uploads/2015/02/twitter-neyrinck-256x300.png" width='50px' alt="Twitter">
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="https://www.youtube.com/user/neyrinckaudio" target="_blank" >
+                                                            <img src="https://neyrinck.com/wp-content/uploads/2015/02/youtube-neyrinck-256x300.png" width='50px' alt="Youtube">
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="http://instagram.com/neyrinckaudio" target="_blank">
+                                                            <img src="https://neyrinck.com/wp-content/uploads/2015/02/instagram-neyrinck-256x300.png" width='50px' alt="Instagram">
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                       <a href="https://www.facebook.com/neyrinckaudio" target="_blank">
+                                                            <img src="https://neyrinck.com/wp-content/uploads/2015/02/facebook-neyrinck-256x300.png" width='50px' alt="Facebook Neyrinck">
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="https://www.facebook.com/VControlPro" target="_blank" >
+                                                            <img src="https://neyrinck.com/wp-content/uploads/2015/02/facebook-v-control-256x300.png" width='50px' alt="Facebook VControl">
+                                                        </a>
+                                                    </td>
+
+                                                </tr>
+                                            
+                                            </tbody>
+                                        </table>
+                                    <!-- End Footer -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+

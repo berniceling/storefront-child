@@ -1,0 +1,43 @@
+#simplemenu > ul > li > a {
+	font-size: 1.2em;
+	font-weight: 400;
+  color: #A8A8A8;
+}
+
+#simplemenu > ul {margin: 0px;}
+#simplemenu > ul > li {
+    padding: 0 1em;
+    position: relative;
+}
+#simplemenu ul.menu li.current-menu-item > a { color : black;}
+#simplemenu ul li:first-child{ margin-left: -1em;}
+#simplemenu > ul > li + li:after {
+    content:"";
+    background: black;
+    position: absolute;
+    bottom: 37%;
+    left: 0;
+    height: 25%;
+    width: 1px;
+}
+#simplemenu:after {
+  content: ".";
+  /*display: block;*/
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+#simplemenu ul.menu{
+ text-align:center;
+}
+#simplemenu ul li{
+ display:inline-block;
+ *display:inline;/*For IE7*/
+ *zoom:1;/*For IE7*/
+}
+#simplemenu {
+  padding-top: 1em;
+  margin-bottom: -5em;
+}
